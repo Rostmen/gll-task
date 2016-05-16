@@ -12,6 +12,8 @@
 		637E71BD1CE88D7D00086FCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637E71BB1CE88D7D00086FCA /* Main.storyboard */; };
 		637E71BF1CE88D7D00086FCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637E71BE1CE88D7D00086FCA /* Assets.xcassets */; };
 		637E71C21CE88D7D00086FCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637E71C01CE88D7D00086FCA /* LaunchScreen.storyboard */; };
+		637E71CA1CE88DB000086FCA /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E71C91CE88DB000086FCA /* HttpClient.swift */; };
+		637E71CC1CE8A4E400086FCA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637E71CB1CE8A4E400086FCA /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		637E71BE1CE88D7D00086FCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		637E71C11CE88D7D00086FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		637E71C31CE88D7D00086FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637E71C91CE88DB000086FCA /* HttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		637E71CB1CE8A4E400086FCA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				637E71CC1CE8A4E400086FCA /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +65,8 @@
 				637E71BE1CE88D7D00086FCA /* Assets.xcassets */,
 				637E71C01CE88D7D00086FCA /* LaunchScreen.storyboard */,
 				637E71C31CE88D7D00086FCA /* Info.plist */,
+				637E71C91CE88DB000086FCA /* HttpClient.swift */,
+				637E71CB1CE8A4E400086FCA /* MobileCoreServices.framework */,
 			);
 			path = "gll-task";
 			sourceTree = "<group>";
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				637E71BA1CE88D7D00086FCA /* ViewController.swift in Sources */,
+				637E71CA1CE88DB000086FCA /* HttpClient.swift in Sources */,
 				637E71B81CE88D7D00086FCA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
